@@ -8,7 +8,7 @@ public class railway{
     static int indexU,t=1;
     static int[][] seats = new int[10][7];
     static int[][] waitList = new int[5][7];
-    static String[] r = {"COIMBATORE","TIRUPUR","ERODE","SALEM","KATPADI","PERAMBUR","CHENNAI"};
+    static String[] r = {"COIMBATORE","SALEM","ERODE","TIRUPUR","TRICHY","TANJORE","CHENNAI"};
     public static void main(String[] args) {
         home();
     }
@@ -142,7 +142,7 @@ public class railway{
         }
     }
     public static void bookT() {
-        System.out.println("1. COIMBATORE\n2. SALEM\n3. ERODE\n4. TIRUPUR\n5. TANJORE\n6. TRICHY\n7. CHENNAI");
+        System.out.println("1. COIMBATORE\n2. SALEM\n3. ERODE\n4. TIRUPUR\n5. TRICHY\n6. TANJORE\n7. CHENNAI");
         System.out.println("Enter Boarding point(For example 1 for Coimbatore) : ");
         int a = scanner.nextInt();//1
         System.out.println("Enter departure point : ");
